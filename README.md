@@ -5,4 +5,4 @@ Since the project was largely pair-programmed, and debugged by the entire group,
 That said, one caveat: I am aware that there are a handful of places, particularly in train.py, where we have some duplicated code or constants that should have been args. These problems largely just arose due to last-minute fixes before our presentation; were we preparing the code for publication, we of course would have cleaned them up first.
 
 HOW TO RUN:
-The code should work with a standard 3.7.9 Conda env: just run train.py with no parameters. (However, --epochs and --bsize will be your friends if you want to see results sooner or run into memory issues, respectively; also, if available, --cuda is highly recommended!)
+After unzipping the caption embeddings file, the code should work with a standard 3.7.9 Conda env: just run train.py with no parameters. (However, --epochs and --bsize will be your friends if you want to see results sooner or run into memory issues, respectively; also, if available, --cuda is of course highly recommended!)
